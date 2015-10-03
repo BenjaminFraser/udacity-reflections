@@ -2,3 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 - A .git file is created and the git is therefore initialised. If you command in $git status, you’ll see there are all the original files. This initial git repository needs to be committed, using either:
 $ git add -A or $ git add individual_items_to_add
 $ git commit -m “This is the first commit - generic message” 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- the working directory is the state of the files at the very moment you’re working
+g with them, whereas the staging area is the location the repository commits are added ready for committing. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+- By using git status and checking which changes have been forwarded into the staging area, prior to a commit command, we can ensure that we are doing one logical change per commit. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- It would be handy when required to make multiple versions of an app or coding repository, for example different languages, different versions, or even perhaps when you want to progress forward with a major change and commit it, but not totally overwrite the master branch as of yet.
