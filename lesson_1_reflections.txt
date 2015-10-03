@@ -1,0 +1,11 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+- It helped by quickly identifying the varying 
+
+How can you use the commands git log and git diff to view the history of files?
+- You can use $git log to view all recent commits within the repository, via the git log. To scroll down and see further commits to the repository you can press the down arrow on the keyboard. To exit the log press q. You can use the command git diff first_id second_id to compare two commits, to see what lines and pieces of code have changed between the different commits. 
+
+How might using version control make you more confident to make changes that could break something?
+- Using git, you can confidently make changes, knowing that if something changes and no longer works, you can easily revert to older versions, or compare changes, to see quickly what it was that caused the issue to occur. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+- Using git within my everyday coding projects would be good, in order to get into a routine and familiarity of using repositories to backup my work. 

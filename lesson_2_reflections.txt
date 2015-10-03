@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+- A .git file is created and the git is therefore initialised. If you command in $git status, you’ll see there are all the original files. This initial git repository needs to be committed, using either:
+$ git add -A or $ git add individual_items_to_add
+$ git commit -m “This is the first commit - generic message” 
