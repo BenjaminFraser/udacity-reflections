@@ -15,3 +15,9 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 - The diagrams help in visualising that each branch is taken from the master branch at the point in time at which it was created. That branch then has the master branch as its parent, which can be merged later, but unless the branch is merged, it remains an entirely independent branch with whatever isolated changes you desire from the master branch. Each separate branch can be worked upon independently from the others, without any having any kind of impact on the others, unless a merging takes place. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- The merge will combine new changes and additional content, along with removing anything intentional from the combination of both merged files. We represent it as a diagram, as the merge is a combination of both individual branches, including all their individual updates. When you git log a merged branch combination, all the commits from both separate branches will be visible. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Gits automatic merging is convenient and rapid for combining branches of code, which may not have changed drastically, and so the merging process is relatively straightforward and without risks. Manual merging is a necessity when doing complex merges, whereby similar files have both been updated differently between branches. In this situation git cannot distinguish between which is the correct code, and so the user must manually examine the conflicts and rectify them accordingly, which is both time consuming and demanding.
