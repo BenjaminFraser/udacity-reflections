@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+-Keeping a remote repository rather than just a standalone local repository makes logical sense for a whole host of reasons, 
+the main one being that in the event of corruptiong or loss of data of your local repository, you still retain a full copy
+of all your hard earned work. Keeping a repository up to date remotely also allows collaboration easily with others, and 
+presents much more opportunity to work well as a team, without issues of requiring access to the local repository. 
