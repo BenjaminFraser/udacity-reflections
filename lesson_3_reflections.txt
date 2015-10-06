@@ -15,3 +15,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 - You could use cloud based services, such as dropbox, google docs or onedrive. You could also have a shared system on a local network, or email out a new version of a file each time its done. Although git and github may have a large learning curve, and can seem quite complicated at times, their superiority in effectiveness of sharing and working on code and projects is worth the time it takes. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+- If I was undertaking something completely different from the main code itself, like a new feature, different mode, or different kind of version, then separating out from the master is very convenient. It also means that more than one person can work on multiple things at once, without all modifying and potentially ruining each others code whilst experimenting. By then merging, pull-requesting and collaborating, the end result code is one which is verfified by all, and not just one, which makes it valuable when working within a team.
